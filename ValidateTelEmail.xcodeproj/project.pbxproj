@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26F2AFB1BE9F9BF00D1EE06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D26F2AFA1BE9F9BF00D1EE06 /* main.m */; };
+		D26F2AFE1BE9F9BF00D1EE06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D26F2AFD1BE9F9BF00D1EE06 /* AppDelegate.m */; };
+		D26F2B011BE9F9BF00D1EE06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26F2B001BE9F9BF00D1EE06 /* ViewController.m */; };
+		D26F2B041BE9F9BF00D1EE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26F2B021BE9F9BF00D1EE06 /* Main.storyboard */; };
+		D26F2B061BE9F9BF00D1EE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26F2B051BE9F9BF00D1EE06 /* Assets.xcassets */; };
+		D26F2B091BE9F9BF00D1EE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26F2B071BE9F9BF00D1EE06 /* LaunchScreen.storyboard */; };
+		D26F2B141BE9F9BF00D1EE06 /* ValidateTelEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26F2B131BE9F9BF00D1EE06 /* ValidateTelEmailTests.m */; };
+		D26F2B1F1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26F2B1E1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D26F2B101BE9F9BF00D1EE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26F2AEE1BE9F9BF00D1EE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26F2AF51BE9F9BF00D1EE06;
+			remoteInfo = ValidateTelEmail;
+		};
+		D26F2B1B1BE9F9BF00D1EE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26F2AEE1BE9F9BF00D1EE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26F2AF51BE9F9BF00D1EE06;
+			remoteInfo = ValidateTelEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D26F2AF61BE9F9BF00D1EE06 /* ValidateTelEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidateTelEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F2AFA1BE9F9BF00D1EE06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D26F2AFC1BE9F9BF00D1EE06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D26F2AFD1BE9F9BF00D1EE06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D26F2AFF1BE9F9BF00D1EE06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D26F2B001BE9F9BF00D1EE06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D26F2B031BE9F9BF00D1EE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D26F2B051BE9F9BF00D1EE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D26F2B081BE9F9BF00D1EE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D26F2B0A1BE9F9BF00D1EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26F2B0F1BE9F9BF00D1EE06 /* ValidateTelEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateTelEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F2B131BE9F9BF00D1EE06 /* ValidateTelEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidateTelEmailTests.m; sourceTree = "<group>"; };
+		D26F2B151BE9F9BF00D1EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26F2B1A1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateTelEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F2B1E1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidateTelEmailUITests.m; sourceTree = "<group>"; };
+		D26F2B201BE9F9BF00D1EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26F2AF31BE9F9BF00D1EE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F2B0C1BE9F9BF00D1EE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F2B171BE9F9BF00D1EE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26F2AED1BE9F9BF00D1EE06 = {
+			isa = PBXGroup;
+			children = (
+				D26F2AF81BE9F9BF00D1EE06 /* ValidateTelEmail */,
+				D26F2B121BE9F9BF00D1EE06 /* ValidateTelEmailTests */,
+				D26F2B1D1BE9F9BF00D1EE06 /* ValidateTelEmailUITests */,
+				D26F2AF71BE9F9BF00D1EE06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26F2AF71BE9F9BF00D1EE06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26F2AF61BE9F9BF00D1EE06 /* ValidateTelEmail.app */,
+				D26F2B0F1BE9F9BF00D1EE06 /* ValidateTelEmailTests.xctest */,
+				D26F2B1A1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26F2AF81BE9F9BF00D1EE06 /* ValidateTelEmail */ = {
+			isa = PBXGroup;
+			children = (
+				D26F2AFC1BE9F9BF00D1EE06 /* AppDelegate.h */,
+				D26F2AFD1BE9F9BF00D1EE06 /* AppDelegate.m */,
+				D26F2AFF1BE9F9BF00D1EE06 /* ViewController.h */,
+				D26F2B001BE9F9BF00D1EE06 /* ViewController.m */,
+				D26F2B021BE9F9BF00D1EE06 /* Main.storyboard */,
+				D26F2B051BE9F9BF00D1EE06 /* Assets.xcassets */,
+				D26F2B071BE9F9BF00D1EE06 /* LaunchScreen.storyboard */,
+				D26F2B0A1BE9F9BF00D1EE06 /* Info.plist */,
+				D26F2AF91BE9F9BF00D1EE06 /* Supporting Files */,
+			);
+			path = ValidateTelEmail;
+			sourceTree = "<group>";
+		};
+		D26F2AF91BE9F9BF00D1EE06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26F2AFA1BE9F9BF00D1EE06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D26F2B121BE9F9BF00D1EE06 /* ValidateTelEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				D26F2B131BE9F9BF00D1EE06 /* ValidateTelEmailTests.m */,
+				D26F2B151BE9F9BF00D1EE06 /* Info.plist */,
+			);
+			path = ValidateTelEmailTests;
+			sourceTree = "<group>";
+		};
+		D26F2B1D1BE9F9BF00D1EE06 /* ValidateTelEmailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D26F2B1E1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.m */,
+				D26F2B201BE9F9BF00D1EE06 /* Info.plist */,
+			);
+			path = ValidateTelEmailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26F2AF51BE9F9BF00D1EE06 /* ValidateTelEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26F2B231BE9F9BF00D1EE06 /* Build configuration list for PBXNativeTarget "ValidateTelEmail" */;
+			buildPhases = (
+				D26F2AF21BE9F9BF00D1EE06 /* Sources */,
+				D26F2AF31BE9F9BF00D1EE06 /* Frameworks */,
+				D26F2AF41BE9F9BF00D1EE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidateTelEmail;
+			productName = ValidateTelEmail;
+			productReference = D26F2AF61BE9F9BF00D1EE06 /* ValidateTelEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D26F2B0E1BE9F9BF00D1EE06 /* ValidateTelEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26F2B261BE9F9BF00D1EE06 /* Build configuration list for PBXNativeTarget "ValidateTelEmailTests" */;
+			buildPhases = (
+				D26F2B0B1BE9F9BF00D1EE06 /* Sources */,
+				D26F2B0C1BE9F9BF00D1EE06 /* Frameworks */,
+				D26F2B0D1BE9F9BF00D1EE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26F2B111BE9F9BF00D1EE06 /* PBXTargetDependency */,
+			);
+			name = ValidateTelEmailTests;
+			productName = ValidateTelEmailTests;
+			productReference = D26F2B0F1BE9F9BF00D1EE06 /* ValidateTelEmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D26F2B191BE9F9BF00D1EE06 /* ValidateTelEmailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26F2B291BE9F9BF00D1EE06 /* Build configuration list for PBXNativeTarget "ValidateTelEmailUITests" */;
+			buildPhases = (
+				D26F2B161BE9F9BF00D1EE06 /* Sources */,
+				D26F2B171BE9F9BF00D1EE06 /* Frameworks */,
+				D26F2B181BE9F9BF00D1EE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26F2B1C1BE9F9BF00D1EE06 /* PBXTargetDependency */,
+			);
+			name = ValidateTelEmailUITests;
+			productName = ValidateTelEmailUITests;
+			productReference = D26F2B1A1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26F2AEE1BE9F9BF00D1EE06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DX;
+				TargetAttributes = {
+					D26F2AF51BE9F9BF00D1EE06 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D26F2B0E1BE9F9BF00D1EE06 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D26F2AF51BE9F9BF00D1EE06;
+					};
+					D26F2B191BE9F9BF00D1EE06 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D26F2AF51BE9F9BF00D1EE06;
+					};
+				};
+			};
+			buildConfigurationList = D26F2AF11BE9F9BF00D1EE06 /* Build configuration list for PBXProject "ValidateTelEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26F2AED1BE9F9BF00D1EE06;
+			productRefGroup = D26F2AF71BE9F9BF00D1EE06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26F2AF51BE9F9BF00D1EE06 /* ValidateTelEmail */,
+				D26F2B0E1BE9F9BF00D1EE06 /* ValidateTelEmailTests */,
+				D26F2B191BE9F9BF00D1EE06 /* ValidateTelEmailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26F2AF41BE9F9BF00D1EE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F2B091BE9F9BF00D1EE06 /* LaunchScreen.storyboard in Resources */,
+				D26F2B061BE9F9BF00D1EE06 /* Assets.xcassets in Resources */,
+				D26F2B041BE9F9BF00D1EE06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F2B0D1BE9F9BF00D1EE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F2B181BE9F9BF00D1EE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26F2AF21BE9F9BF00D1EE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F2B011BE9F9BF00D1EE06 /* ViewController.m in Sources */,
+				D26F2AFE1BE9F9BF00D1EE06 /* AppDelegate.m in Sources */,
+				D26F2AFB1BE9F9BF00D1EE06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F2B0B1BE9F9BF00D1EE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F2B141BE9F9BF00D1EE06 /* ValidateTelEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F2B161BE9F9BF00D1EE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F2B1F1BE9F9BF00D1EE06 /* ValidateTelEmailUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D26F2B111BE9F9BF00D1EE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26F2AF51BE9F9BF00D1EE06 /* ValidateTelEmail */;
+			targetProxy = D26F2B101BE9F9BF00D1EE06 /* PBXContainerItemProxy */;
+		};
+		D26F2B1C1BE9F9BF00D1EE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26F2AF51BE9F9BF00D1EE06 /* ValidateTelEmail */;
+			targetProxy = D26F2B1B1BE9F9BF00D1EE06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D26F2B021BE9F9BF00D1EE06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26F2B031BE9F9BF00D1EE06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D26F2B071BE9F9BF00D1EE06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26F2B081BE9F9BF00D1EE06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26F2B211BE9F9BF00D1EE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D26F2B221BE9F9BF00D1EE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26F2B241BE9F9BF00D1EE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValidateTelEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DX.ValidateTelEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D26F2B251BE9F9BF00D1EE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValidateTelEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DX.ValidateTelEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D26F2B271BE9F9BF00D1EE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ValidateTelEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DX.ValidateTelEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidateTelEmail.app/ValidateTelEmail";
+			};
+			name = Debug;
+		};
+		D26F2B281BE9F9BF00D1EE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ValidateTelEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DX.ValidateTelEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidateTelEmail.app/ValidateTelEmail";
+			};
+			name = Release;
+		};
+		D26F2B2A1BE9F9BF00D1EE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ValidateTelEmailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DX.ValidateTelEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ValidateTelEmail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D26F2B2B1BE9F9BF00D1EE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ValidateTelEmailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DX.ValidateTelEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ValidateTelEmail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26F2AF11BE9F9BF00D1EE06 /* Build configuration list for PBXProject "ValidateTelEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F2B211BE9F9BF00D1EE06 /* Debug */,
+				D26F2B221BE9F9BF00D1EE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26F2B231BE9F9BF00D1EE06 /* Build configuration list for PBXNativeTarget "ValidateTelEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F2B241BE9F9BF00D1EE06 /* Debug */,
+				D26F2B251BE9F9BF00D1EE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D26F2B261BE9F9BF00D1EE06 /* Build configuration list for PBXNativeTarget "ValidateTelEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F2B271BE9F9BF00D1EE06 /* Debug */,
+				D26F2B281BE9F9BF00D1EE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D26F2B291BE9F9BF00D1EE06 /* Build configuration list for PBXNativeTarget "ValidateTelEmailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F2B2A1BE9F9BF00D1EE06 /* Debug */,
+				D26F2B2B1BE9F9BF00D1EE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26F2AEE1BE9F9BF00D1EE06 /* Project object */;
+}
